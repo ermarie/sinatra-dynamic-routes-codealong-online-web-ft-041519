@@ -18,6 +18,7 @@ class App < Sinatra::Base
     "Goodbye, #{@user_name}."
   end
 
+<<<<<<< HEAD
   get "/multiply/:num1/:num2" do
     @num1 = params[:num1]
     @num2 = params[:num1]
@@ -27,6 +28,8 @@ class App < Sinatra::Base
     "#{sum}"
   end
 
+=======
+>>>>>>> 3b56b930e5db994434cd9376a36acfc07907910c
   # Code your final two routes here:
 
 end
